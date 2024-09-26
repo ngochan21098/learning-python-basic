@@ -1,0 +1,19 @@
+'''Bài 1: Viết hàm nhập vào 1 mảng số nguyên (Nếu nhập ký tự thì bắt nhập lại đến khi nào nhập đúng thì thôi) => trả về lại mảng có giá trị nguyên.
+* 		Input: mang = func1(5)
+* 		Output: print(mang) =>  [5, 4, 1, 4, 3]'''
+
+def print_mang(num):
+    x = 0
+    arr = []
+    while x < num:
+        try:
+             arr.append(int(input(f'Nhap so thu {x+1}:')))
+             x += 1
+        except:
+             print('please input again') 
+             
+        
+    return arr 
+
+mang = print_mang(5)
+print(mang) 
