@@ -1,5 +1,4 @@
 '''Bài 2: Viết hàm nhận vào 1 mảng => In ra màn hình số dấu "*" tương ứng của mỗi Item.
-Input:
 mang = func1(5) => VD: [5, 4, 1, 4, 3]
 func2(mang)
 Output:
@@ -26,4 +25,4 @@ def convert_star(array):
 
 mang = print_mang(3) 
 convert_star(mang) 
-     
+

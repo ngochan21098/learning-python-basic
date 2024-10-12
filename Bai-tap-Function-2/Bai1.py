@@ -1,7 +1,6 @@
 '''Bài 1: Viết hàm nhập vào 1 mảng số nguyên (Nếu nhập ký tự thì bắt nhập lại đến khi nào nhập đúng thì thôi) => trả về lại mảng có giá trị nguyên.
 Input: mang = func1(5)
-Output: print(mang) =>  [5, 4, 1, 4, 3]
-Gợi ý: Sử dụng while để check (https://www.w3schools.com/python/python_while_loops.asp)'''
+Output: print(mang) =>  [5, 4, 1, 4, 3]'''
 
 def print_mang(num):
     x = 0
@@ -14,3 +13,4 @@ def print_mang(num):
 
 mang = print_mang(5)
 print(mang) 
+

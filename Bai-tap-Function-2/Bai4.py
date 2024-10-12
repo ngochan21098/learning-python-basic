@@ -1,6 +1,4 @@
 '''Bài 4: Viết hàm nhận vào n => In ra hình tam giác như Ví dụ.
-
-Input: func4(4)
 Output:
 ****
 ***
@@ -20,3 +18,4 @@ def print_tri(m):
 
 
 print_tri(6) 
+

@@ -1,8 +1,6 @@
 def print_rec(m, n):
   """
   In ra hình chữ nhật có chiều dài m và chiều rộng n.
-
-  Args:
     m: Chiều dài của hình chữ nhật.
     n: Chiều rộng của hình chữ nhật.
   """
@@ -15,3 +13,4 @@ def print_rec(m, n):
         print() 
 
 print_rec(2, 4)
+

@@ -1,7 +1,5 @@
 '''
 Bài 5: Viết hàm nhận vào n (n là cạnh của tam giác cân) => In ra hình tam giác cân như Ví dụ.
-
-Input: func5(5)
 Output:
 ____*
 ___***
@@ -32,3 +30,4 @@ def func5(n):
 
 # Gọi hàm với n = 5
 func5(8)
+
