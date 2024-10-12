@@ -14,4 +14,3 @@ def print_mang(num):
 
 mang = print_mang(5)
 print(mang) 
-
