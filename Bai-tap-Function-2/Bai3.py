@@ -8,9 +8,6 @@ def print_rec(m, n):
         print('Fail')
   else:   
     for i in range(n):
-        for j in range(m):
-         print('*', end='')
-        print() 
-
-print_rec(2, 4)
+      print("*" * m)
+print_rec(4, 2)
 

@@ -7,15 +7,9 @@ Output:
 '''
 
 def print_tri(m): 
-    x = m
-    arr = []
-    while x<=m and x>0: 
-        arr.append(x)
-        x -= 1
-    for i in arr:
-        print("*" * i,end ='')
+    for i in range(m):
+        print('*' * (m-i), end='')
         print()
-
 
 print_tri(6) 
 
